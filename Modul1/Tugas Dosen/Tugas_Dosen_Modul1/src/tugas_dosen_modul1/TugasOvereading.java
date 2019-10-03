@@ -1,15 +1,22 @@
-package praktikumm1yogi_06926;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package tugas_dosen_modul1;
+
 import java.util.Scanner;
+
 /**
  *
  * @author yogi-06926
  */
-public class Data {
+public class TugasOvereading {
     Scanner input = new Scanner(System.in);
     int[]c = new int[10];
     int s=0,z;
     int i,j,k,a,l;
-    Data( int[] c,int i, int j, int k,int a, int d){
+    TugasOvereading( int[] c,int i, int j, int k,int a, int d){
         this.c = c;
         this.s=s ;
         this.i=i;
@@ -19,7 +26,7 @@ public class Data {
         this.l=d;
     }
 
-    Data() {
+    TugasOvereading() {
        
     }
     
@@ -70,6 +77,4 @@ public class Data {
         
      }
     }
-    
-    
 }

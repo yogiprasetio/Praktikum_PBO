@@ -1,12 +1,19 @@
-package praktikumm1yogi_06926;
+package tugas_dosen_modul1;
+
 import java.util.Scanner;
 
-public class PraktikumM1Yogi_06926 {
-   
+/**
+ *
+ * @author yogi-06926
+ */
+public class Tugas_Dosen_Modul1 {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Data Data = new Data();
+        TugasOvereading TugasOvereading = new TugasOvereading();
         int pil, j=0, z;
         int[]c = new int[10];
         char ljt;
@@ -28,7 +35,7 @@ public class PraktikumM1Yogi_06926 {
         else{
         switch(pil){
             case 1 :
-                c= Data.Masuk();
+                c= TugasOvereading.Masuk();
                 j++;
                 break;
             
@@ -37,7 +44,7 @@ public class PraktikumM1Yogi_06926 {
                     System.out.println("sorry, Data not found");
                 }
                 else{
-                c = Data.Ascending();
+                c = TugasOvereading.Ascending();
                 }break;
             
             case 3 :
@@ -45,7 +52,7 @@ public class PraktikumM1Yogi_06926 {
                     System.out.println("sorry, Data not found");
                 }
                 else{
-                c= Data.Descending();
+                c= TugasOvereading.Descending();
                 }break;
             
             case 4 :
@@ -53,7 +60,7 @@ public class PraktikumM1Yogi_06926 {
                     System.out.println("sorry, Data not found");
                 }
                 else{
-                Data.Cetak();
+                TugasOvereading.Cetak();
                 }break;
             }
         }
@@ -62,5 +69,7 @@ public class PraktikumM1Yogi_06926 {
         ljt = input.next().charAt(0);
         }
         while(ljt == 'n'|| ljt == 'N');
+    
     }
+    
 }
