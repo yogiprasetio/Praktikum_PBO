@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/tugas_dosen_modul1/TugasOvereading.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>59</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/yogi-06926/NetBeansProjects/Tugas_Dosen_Modul1/src/tugas_dosen_modul1/Tugas_Dosen_Modul1.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

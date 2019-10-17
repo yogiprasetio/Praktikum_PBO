@@ -1,80 +1,71 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tugas_dosen_modul1;
 
-import java.util.Scanner;
-
-/**
- *
- * @author yogi-06926
- */
 public class TugasOvereading {
-    Scanner input = new Scanner(System.in);
-    int[]c = new int[10];
-    int s=0,z;
-    int i,j,k,a,l;
-    TugasOvereading( int[] c,int i, int j, int k,int a, int d){
-        this.c = c;
-        this.s=s ;
-        this.i=i;
-        this.j=j;
-        this.k=k;
-        this.a=a;
-        this.l=d;
-    }
-
-    TugasOvereading() {
-       
+    int[] a= new int[10];
+    double[] d=new double[10];
+    int j,k,l;
+    
+    void input(int v,int b){
+        a[v]=b;
     }
     
-    int[] Masuk(){
-        
-        for (i=0; i<c.length; i++)
-        {
-            System.out.print(" ,");
-            j=input.nextInt();
-            c[i]=j;
-        }
-        return c;
-                
+    void input(int v,double db){
+        d[v]=db;
     }
     
-   int[] Ascending(){
-   
-        
-        for(i=0;i<c.length;i++){
-            for(l=0;l<(c.length-1);l++){
-                if(c[l]>c[l+1]){
-                    k=c[l];
-                    c[l]=c[l+1];
-                    c[l+1]=k;
+    void ascending(int i){
+        for(j=0;j<i;j++){
+            for(k=0;k<(i-1);k++){
+                if(a[k]<a[k+1]){
+                    l=a[k];
+                    a[k]=a[k+1];
+                    a[k+1]=l;
                 }
             }
         }
-        return c;
     }
-    int[] Descending(){
-        
-        for(i=0;i<c.length;i++){
-            for(l=0;l<(c.length-1);l++){
-                if(c[l]<c[l+1]){
-                    k=c[l];
-                    c[l]=c[l+1];
-                    c[l+1]=k;
+    
+    void ascending(int i, double f){
+        for(j=0;j<i;j++){
+            for(k=0;k<(i-1);k++){
+                if(d[k]<d[k+1]){
+                    f=d[k];
+                    d[k]=d[k+1];
+                    d[k+1]=f;
                 }
             }
         }
-      return c;  
     }
     
-    void Cetak(){
-        
-        for(int i=0;i<c.length;i++){
-            System.out.print(c[i]+", ");
-        
-     }
+    void descending(int i){
+        for(j=0;j<i;j++){
+            for(k=0;k<(i-1);k++){
+                if(a[k]>a[k+1]){
+                    l=a[k];
+                    a[k]=a[k+1];
+                    a[k+1]=l;
+                }
+            }
+        }
     }
+    
+    void descending(int i, double f){
+        for(j=0;j<i;j++){
+            for(k=0;k<(i-1);k++){
+                if(d[k]<d[k+1]){
+                    f=d[k];
+                    d[k]=d[k+1];
+                    d[k+1]=f;
+                }
+            }
+        }
+    }
+    
+    int[] Cetak(){
+    return a;
+    }
+    double[] petak(){
+        return d;
+    }
+    
 }
