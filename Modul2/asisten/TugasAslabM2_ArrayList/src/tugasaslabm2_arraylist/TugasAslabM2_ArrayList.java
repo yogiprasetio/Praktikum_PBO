@@ -8,7 +8,7 @@ public class TugasAslabM2_ArrayList {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         Controller control=new Controller();
-        int a,b,c,d=1,pil;
+        int a,b,c,d,pil;
         char ljt;
         String name;
         do{
@@ -45,6 +45,7 @@ public class TugasAslabM2_ArrayList {
                 break;
                 
             case 3 :
+                d=1;
                 System.out.println("=========== Update Data ==========");
                 System.out.println("=========== LIST ===========");
                 for(Data nilai : control.getALL()){
@@ -77,6 +78,7 @@ public class TugasAslabM2_ArrayList {
                 
                 System.out.println("=========== Delete Data ==========");
                 System.out.println("=========== LIST ===========");
+                d=0;
                 for(Data nilai : control.getALL()){
                     System.out.println("Index            : "+d);d++;
                     System.out.println("Nama             : "+nilai.getNamas());
