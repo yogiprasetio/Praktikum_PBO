@@ -10,6 +10,8 @@ public class npm06926Main {
     public static void main(String[] args) {
         int menu;
         do {
+            npm06926Main main;
+            main = new npm06926Main();
             System.out.println("\n\nSistem Informasi Laundry RPL!!!");
             main.tampilkanData();
             System.out.println("\n\nMenu");
@@ -67,7 +69,7 @@ static void tambahPelanggan(){
     System.out.println("Tambah Pelanggan !!!");
     Pelanggan pelanggan = new Pelanggan();
     System.out.println("ID Pelanggan : "+String.valueOf(pelangganArr.size()+1));
-    Pelanggan.setId(pelangganArr.size()+1);
+    pelanggan.setId(pelangganArr.size()+1);
     System.out.println("Nama Pelanggan : ");
     pelanggan.setNama(scan.next());
     System.out.println("Nomor HP Pelanggan : ");

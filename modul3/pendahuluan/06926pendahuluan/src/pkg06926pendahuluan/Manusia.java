@@ -8,8 +8,8 @@ public class Manusia {
   String getNama(){
       return nama;
   }
-  void setNohp(String no_hp){
-      this.no_qhp=no_hp;
+  void setNohp(String no_qhp){
+      this.no_qhp=no_qhp;
   }
   String getNohp(){
       return no_qhp;
