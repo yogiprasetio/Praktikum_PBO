@@ -1,8 +1,8 @@
 package tugas_dosen_modul1;
 
 public class TugasOvereading {
-    int[] a= new int[10];
-    double[] d=new double[10];
+    int[] a= new int[20];
+    double[] d=new double[20];
     int j,k,l;
     
     void input(int v,int b){

@@ -73,7 +73,7 @@ static void tambahPelanggan(){
     System.out.println("Nama Pelanggan : ");
     pelanggan.setNama(scan.next());
     System.out.println("Nomor HP Pelanggan : ");
-    pelangganArr.setNohp(scan.next());
+    pelanggan.setNohp(scan.next());
     
     pelangganArr.add(pelanggan);
     
