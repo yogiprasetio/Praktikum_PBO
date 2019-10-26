@@ -8,7 +8,7 @@ public class Npm06926PraktikumM3 {
      */
     public static void main(String[] args) {
         Scanner inn= new Scanner(System.in);
-        ikiController control=new ikiController();
+        ikiController control;
         SequentialSearch ss = new SequentialSearch();
         BinnarySearch bs=new BinnarySearch();
         int pil,c=0;
@@ -45,7 +45,8 @@ public class Npm06926PraktikumM3 {
               break;
           case 4 :
               System.out.println("=========== Cetak Data ===========");
-                for(Data data : control.getALL()){
+                for(Data data : control.getList()){
+                    System.out.println("Isi array : " + control.getList().size());
                     System.out.println("Nama             : "+data.getName());
                     System.out.println("Nik        : "+data.getNik());
                     System.out.println("Antrian : "+data.getAntri());
