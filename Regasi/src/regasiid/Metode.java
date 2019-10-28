@@ -75,6 +75,7 @@ public class Metode {
         System.out.println(n);
         System.out.println(c3);
         System.out.println(m3);
+        System.out.print("Prediksi titik pada saat X = "+xdata+"Adalah Koordinat\nX = "+xdata+"\nY = ");
         System.out.println(ydata);
   }
 }

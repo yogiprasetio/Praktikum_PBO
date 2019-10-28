@@ -30,9 +30,9 @@ public class RegasiID {
             
             i=k;
             
-            System.out.println("k = "+j);
-            System.out.println("i = "+i);
-            System.out.println("class main ^^");
+//            System.out.println("k = "+j);
+//            System.out.println("i = "+i);
+//            System.out.println("class main ^^");
             selesei.entri(a, i, b, j);
             
 //            int[] p = anyar.getX(); System.out.print(p[i]+" , ");
@@ -40,7 +40,7 @@ public class RegasiID {
         }
         selesei.cetaksoal(pil);
         
-        System.out.println("\nMasukkan data yg ingin di prediksi : ");
+        System.out.print("\nMasukkan data yg ingin di prediksi : ");
         double h=scan.nextDouble();
         selesei.inputperdiksi(h);
         System.out.println("==================================================");
