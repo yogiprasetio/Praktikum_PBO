@@ -1,0 +1,292 @@
+WIND RIVER
+{
+- https://en.wikipedia.org/wiki/Wind_River_Systems
+- http://www.jungo.com/st/support/documentation/windriver/10.2.1/wdusb_manual.mhtml/wd_install_process.html
+- https://www.windriver.com/products/linux/
+- https://www.advantech.ru/products/bac450df-e534-4d08-be67-8af5cdb692e9/wind-river-pulsar-linux/mod_f3625ec7-13b1-40ed-97e5-cfbb04c7798a
+- 
+}
+
+New Wind River System's company logo.png
+Type		: Private
+Founded		: 1981
+Headquarters	: Alameda, California, U.S.
+Key people	: Jim Douglas, President
+Revenue	US$359.7 million (FY ended Jan 31 2009)[1]
+Number of employees
+	1,800+[2] (11/2012)
+Parent		: TPG Capital
+Website	www.windriver.com
+
+Wind River Systems, also known as Wind River, is an Alameda, California-based wholly owned subsidiary of TPG Capital. The company develops embedded system software consisting of run-time software, industry-specific software suites,[buzzword] simulation technology, development tools and middleware, which is software and operating systems for information appliances and devices for intelligent connected systems.
+
+ Wind River Systems was formed by a partnership of Jerry Fiddler[5] and Dave Wilner.[6][7] In 1981, Fiddler had come out of Berkeley Labs[8] to write software for control systems, but wanted to pursue a career in computer generated music,[9] which he funded through a consultancy business focused on real-time. His early clients included the National Football League and film director Francis Ford Coppola — for whom he designed a unique film editing system.[10] Wilner, a former colleague at Berkeley, joined Fiddler and they formed a partnership called Wind River Systems (named after Wind River, Wyoming, where Fiddler had vacationed that year). 
+
+Products
+
+    2.1 VxWorks
+    2.2 Wind River Linux
+    2.3 Helix Virtualization Platform
+    2.4 Wind River (Diab) Compiler
+    2.5 Simics
+    2.6 Wind River Titanium Cloud
+    2.7 Edge Sync
+    2.8 Workbench
+
+Among the company's products are the VxWorks real-time operating system, the Wind River Linux operating system, and the Eclipse-based Wind River Workbench IDE. VxWorks began as an add-on to the VRTX operating system in the early 1980s. Wind River Workbench superseded the previous Tornado environment.[31]
+VxWorks
+Main article: VxWorks
+
+VxWorks is the original flagship product of Wind River. It is a real-time operating system (RTOS) intended for embedded and critical infrastructure devices and systems. It supports multicore processors, 32-bit and 64-bit, for several architectures including ARM®, Intel®, and Power® and has over one hundred board support packages (BSPs) for different hardware systems. VxWorks is a real time and deterministic operating system that is secure, safe, reliable, and certifiable.
+Wind River Linux
+
+Wind River's Linux product is source code and a build system that generate runtime images suitable for embedded devices. It supports a variety of architectures, including ARM, MIPS, PowerPC, IA32 and SPARC.
+
+In 2004, Wind River announced a partnership with Red Hat to create a new Linux-based distribution for embedded devices.[32] Wind River has since ended its partnership with Red Hat and now ships its own Linux distribution optimized for embedded Linux development.
+
+Wind River released the first version of its embedded Linux distribution, Platform for Network Equipment - Linux Edition (PNE-LE) 1.0 in 2005.[33] It was registered against the Carrier Grade Linux 2.0 specification and supported IA32 and PPC architectures. They added other platforms in subsequent releases, General Purpose Platform - Linux Edition (GPP-LE) and Platform for Consumer Devices - Linux Edition PCD-LE) starting in version 1.4. In 2013 Wind River announced Wind River Linux 6.0.[34]
+
+Wind River Systems acquired FSMLabs embedded technology in February 2007[35] and made a version available as Wind River Real-Time Core for Wind River Linux. As of August 2011, Wind River has discontinued the Wind River Real-Time Core product line, effectively ending commercial support for the RTLinux product.[citation needed]
+
+On August 7, 2007, Palm Inc. announced that it had chosen Wind River Systems as the software solution[buzzword] for its (later aborted) Palm Foleo.
+
+In 2008, Wind River announced cooperation with BMW, Intel and Magneti Marelli for development of a Linux-based open-source platform to control in-car electronics,[36] which was extended in the GENIVI Alliance in 2009.[37]
+
+In 2012, Wind River introduced a new version of Wind River Linux that was developed from the Yocto Project open source development infrastructure and has achieved Yocto Project Compatible registration.[34]
+Helix Virtualization Platform
+
+Wind River® Helix™ Virtualization Platform consolidates multi-OS and mixed-criticality applications onto a single edge compute software platform.
+Wind River (Diab) Compiler
+
+Wind River acquired Dataindustrier AB's Diab Compiler as part of its acquisition of Integrated Systems Inc.[38] Originally designed by Wind River's former CTO, Tomas Evensen, it is now available as part of Wind River's VxWorks platforms. It can also be licensed separately for non-VxWorks users. The compiler supports PowerPC, ARM, MIPS, SH, ColdFire, TriCore, Intel, and more architectures.
+Simics
+
+Simics was added to Wind River's product portfolio after the acquisition of Virtutech by Intel in 2010.[20]
+Wind River Titanium Cloud
+
+Introduced in 2014, Wind River Titanium Cloud provides a Network Functions Virtualization (NFV) infrastructure software platform used by network equipment suppliers to build NFV equipment[39] and by communications service providers (CSPs) to deploy next generation edge computing services. The product is based on open source software, specifically the OpenStack project, StarlingX which includes components from various other open source projects such as: Ceph, DPDK, OpenStack, Linux, KVM, and Kubernetes. StarlingX is an edge, or distributed, cloud software infrastructure designed to meet computing needs for communications service providers as they evolve their networks to 5G.
+
+Some of the key attributes of Titanium Cloud include:
+
+    Ultra-low latency. Predictable, deterministic performance with flexible profiles tuned to match use case
+    Manageability: scheduling and orchestration of workloads, failures, and security to management service-level agreements (SLAs). The platform manages applications through existing (OSS/BSS/NMS)systems (operation support system / business support system / network monitoring system) and uses standards-based application programming interfaces (APIs)
+    Fault Tolerance: capable of being configured to achieve a range of service availability requirements, including "six nines" availability which is achieved by carrier-grade fault management features and reliable software.
+    Telecom-grade Security. Fully integrated carrier-grade security that starts with the development process
+
+Edge Sync
+
+Wind River® Edge Sync is an over-the-air (OTA) update and software lifecycle management solution enabling auto manufacturers to remotely maintain the integrity of embedded sy
+
+stems, apply feature and performance enhancements, and collect and report critical data across the lifecycle of the vehicle.
+Workbench
+
+Wind River Workbench integrated development environment (IDE) and set of tools for software running on Wind River platforms. It configures operating systems, analyzes and tunes software applications, and debugs entire systems.
+Markets
+
+Kerentanan URGENT / 11 yang dilaporkan berada di tumpukan jaringan IPnet TCP / IP dari RTOS yang disertakan dalam VxWorks sejak versi 6.5, tampaknya membuat semua versi VxWorks dirilis dalam 13 tahun terakhir rentan terhadap serangan pengambilalihan perangkat.
+
+
+Ke-6 kerentanan kritis memungkinkan penyerang memicu serangan eksekusi kode jarak jauh (RCE), dan kekurangan yang tersisa dapat menyebabkan penolakan layanan, kebocoran informasi, atau cacat logis.
+
+Kelemahan Eksekusi Kode Remote Kritis:
+
+
+        Stack overflow dalam penguraian opsi IPv4 (CVE-2019-12256)
+        Empat kerentanan korupsi memori yang berasal dari penanganan yang salah bidang TCP Urgent Pointer (CVE-2019-12255, CVE-2019-12260, CVE-2019-12261, CVE-2019-12263)
+        Heap overflow di DHCP Offer / ACK parsing di ipdhcpc (CVE-2019-12257) 
+
+
+
+
+DoS, Kebocoran Informasi, dan Kelemahan Logis:
+
+
+        Koneksi TCP DoS melalui opsi TCP yang salah bentuk (CVE-2019-12258)
+        Penanganan balasan Reverse ARP yang tidak diminta (Logical Flaw) (CVE-2019-12262)
+        Kelemahan logis dalam penugasan IPv4 oleh klien DHCP ipdhcpc (CVE-2019-12264)
+        DoS via NULL dereference dalam penguraian IGMP (CVE-2019-12259)
+        Kebocoran Informasi IGMP melalui laporan keanggotaan khusus IGMPv3 (CVE-2019-12265) 
+
+
+
+
+Semua kekurangan ini dapat dieksploitasi oleh penyerang jarak jauh yang tidak diautentikasi hanya dengan mengirim paket TCP yang dibuat khusus ke perangkat yang terpengaruh tanpa memerlukan interaksi pengguna atau informasi sebelumnya mengenai perangkat yang ditargetkan.
+
+Namun, setiap versi VxWorks sejak 6,5 tidak rentan terhadap semua 11 cacat, tetapi setidaknya satu cacat RCE kritis mempengaruhi setiap versi sistem operasi real-time.
+
+        "VxWorks menyertakan beberapa mitigasi opsional yang dapat membuat beberapa kerentanan URGENT / 11 lebih sulit untuk dieksploitasi, tetapi mitigasi ini jarang digunakan oleh produsen perangkat," kata para peneliti. 
+
+
+
+Peneliti Armis percaya kekurangan URGENT / 11 dapat memengaruhi perangkat yang menggunakan sistem operasi waktu nyata lainnya juga, karena IPnet digunakan dalam sistem operasi lain sebelum diakuisisi oleh VxWorks pada 2006
+
+4.2  WinDriver Installation Process 
+
+The WinDriver CD contains all versions of WinDriver for the supported operating systems. The CD's root directory contains the Windows 7 / Vista / Server 2008 / Server 2003 / XP / 2000 version. The installation of this version will begin automatically when you insert the CD into the CD drive on your Windows development machine. The other versions of WinDriver are located in <OS> sub-directories (for example: Linux; Wince).
+4.2.1  Windows WinDriver Installation Instructions
+[Note]	
+Driver installation on Windows requires administrator privileges.
+
+    Insert the WinDriver CD into your CD-ROM drive, or double-click the downloaded installation file – WD1021.EXE – and follow the installation instructions.
+    [Note]	
+    When using the installation CD, wait a few seconds for the installation to begin automatically. If this does not happen, double-click the file WD1021.EXE in the CD, and click the Install WinDriver button.
+    At the end of the installation, you may be prompted to reboot your computer. 
+
+[Note]	
+
+    The WinDriver installation defines a WD_BASEDIR environment variable, which is set to point to the location of your WinDriver directory, as selected during the installation. This variable is used during the DriverWizard [5] code generation – it determines the default directory for saving your generated code and is used in the include paths of the generated project/make files.
+    If the installation fails with an ERROR_FILE_NOT_FOUND error, inspect the Windows registry to see if the RunOnce key exists in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion. This registry key is required by Windows Plug﻿-﻿and﻿-﻿Play in order to properly install drivers using INF files. If the RunOnce key is missing, create it; then try installing the INF file again. 
+
+The following steps are for registered users only:
+
+To register your copy of WinDriver with the license you received from Jungo, follow these steps:
+
+    Start DriverWizard: Start | Programs | WinDriver | DriverWizard.
+    Select the Register WinDriver option from the File menu, and insert the license string you received from Jungo.
+    Click the Activate License button.
+    To register source code that you developed during the evaluation period, refer to the documentation of WDU_Init() [B.4.1]. 
+
+4.2.2  Windows CE WinDriver Installation Instructions
+4.2.2.1  Installing WinDriver CE when Building New CE-﻿Based Platforms
+[Note]	
+
+    The following instructions apply to platform developers who build Windows CE kernel images using Windows CE Platform Builder or using MS Visual Studio 2005/2008 with the Windows CE 6.0 plugin. The instructions use the notation 'Windows CE IDE' to refer to either of these platforms.
+    We recommend that you read Microsoft's documentation and understand the Windows CE and device driver integration procedure before you perform the installation. 
+
+    Modify the project registry file to add an entry for your target device:
+        If you select to use the WinDriver component (refer to step 2), modify WinDriver\samples\wince_install\<TARGET_CPU>\WinDriver.reg (e.g., WinDriver\samples\wince_install\ARMV4I\WinDriver.reg).
+        Otherwise, modify WinDriver\samples\wince_install\project_wd.reg. 
+
+    You can simplify the driver integration into your Windows CE platform by following the procedure described in this step before the Sysgen platform compilation stage.
+
+    Note:
+        The procedure described in this step is relevant only for developers who use Windows CE 4.x-5.x with Platform Builder.
+        Developers who use Windows CE 6.x with MS Visual Studio 2005/2008 should skip to the next step (refer to step 3).
+        This procedure provides a convenient method for integrating WinDriver into your Windows CE platform. If you select not to use this method, you will need to perform the manual integration steps described in step 4 below, after the Sysgen stage.
+        The procedure described in this step also adds the WinDriver kernel module (windrvr6.dll) to your OS image. This is a necessary step if you want the WinDriver CE kernel file (windrvr6.dll) to be a permanent part of the Windows CE image (NK.BIN), which is the case if you select to transfer the file to your target platform using a floppy disk. However, if you prefer to have the file windrvr6.dll loaded on demand via the CESH/PPSH services, you need to perform the manual integration method described in step 4 instead of performing the procedure described in the present step. 
+        Run the Windows CE IDE and open your platform.
+        From the File menu select Manage Catalog Items.... and then click the Import... button and select the WinDriver.cec file from the relevant WinDriver\samples\wince_install\<TARGET_CPU> directory (e.g., WinDriver\samples\wince_install\ARMV4I). This will add a WinDriver component to the Platform Builder Catalog.
+        In the Catalog view, right-click the mouse on the WinDriver Component node in the Third Party tree and select Add to OS design. 
+    Compile your Windows CE platform (Sysgen stage).
+    If you did not perform the procedure described in step 2 above, perform the following steps after the Sysgen stage in order to manually integrate the driver into your platform. Note: If you followed the procedure described in step 2, skip this step and go directly to step 5.
+        Run the Windows CE IDE and open your platform.
+        Select Open Release Directory from the Build menu.
+        Copy the WinDriver CE kernel file – WinDriver\redist\<TARGET_CPU\windrvr6.dll – to the %_FLATRELEASEDIR% sub-directory on the target development platform (should be the current directory in the new command window).
+        Append the contents of the project_wd.reg file in the WinDriver\samples\wince_install directory to the project.reg file in the %_FLATRELEASEDIR% sub-directory.
+
+        Append the contents of the project_wd.bib file in the WinDriver\samples\wince_install directory to the project.bib file in the %_FLATRELEASEDIR% sub-directory.
+
+        This step is only necessary if you want the WinDriver CE kernel file (windrvr6.dll) to be a permanent part of the Windows CE image (NK.BIN), which is the case if you select to transfer the file to your target platform using a floppy disk. If you prefer to have the file windrvr6.dll loaded on demand via the CESH/PPSH services, you do not need to carry out this step until you build a permanent kernel. 
+    Select Make Run-Time Image from the Build menu and name the new image NK.BIN.
+    Download your new kernel to the target platform and initialize it either by selecting Download/Initialize from the Target menu or by using a floppy disk.
+    Restart your target CE platform. The WinDriver CE kernel will automatically load.
+    Compile and run the sample programs to make sure that WinDriver CE is loaded and is functioning correctly (see section 4.4.2, which describes how to check your installation). 
+
+4.2.2.2  Installing WinDriver CE when Developing Applications for Windows CE Computers
+[Note]	
+Unless otherwise specified, 'Windows CE' references in this section include all supported Windows CE platforms, including Windows Mobile.
+
+The following instructions apply to driver developers who do not build the Windows CE kernel, but only download their drivers, built using MS eMbedded Visual C﻿+﻿+ (Windows CE 4.x – 5.x) or MS Visual Studio 2005/2008 (Windows Mobile or Windows CE 6.x) to a ready-made Windows CE platform:
+
+    Insert the WinDriver CD into your Windows host CD drive.
+    Exit the automatic installation.
+    Copy WinDriver's kernel module – windrvr6.dll – from the WinDriver\redist\WINCE\<TARGET_CPU> directory on the Windows host development PC to the Windows directory on your target Windows CE platform.
+    Add WinDriver to the list of device drivers Windows CE loads on boot:
+        Modify the registry according to the entries documented in the file WinDriver\samples\wince_install\project_wd.reg. This can be done using the Windows CE Pocket Registry Editor on the hand-held CE computer or by using the Remote CE Registry Editor Tool supplied with MS eMbedded Visual C﻿+﻿+ (Windows CE 4.x – 5.x) / MS Visual Studio 2005/2008 (Windows Mobile or Windows CE 6.x). Note that in order to use the Remote CE Registry Editor tool you will need to have Windows CE Services installed on your Windows host platform.
+        On Windows Mobile the operating system's security scheme prevents the loading of unsigned drivers at boot time, therefore the WinDriver kernel module has to be reloaded after boot. To load WinDriver on the target Windows Mobile platform every time the OS is started, copy the WinDriver\redist\Windows_Mobile_5_ARMV4I\wdreg.exe utility to the Windows\StartUp directory on the target PC. 
+    Restart your target CE computer. The WinDriver CE kernel will automatically load. You will have to do a warm reset rather than just suspend/resume (use the reset or power button on your target CE computer).
+    Compile and run the sample programs to make sure that WinDriver CE is loaded and is functioning correctly (see section 4.4, which describes how to check your installation). 
+
+4.2.2.3  Windows CE Installation Note
+
+The WinDriver installation on the host Windows 7 / Vista / Server 2008 / Server 2003 / XP / 2000 PC defines a WD_BASEDIR environment variable, which is set to point to the location of your WinDriver directory, as selected during the installation. This variable is used during the DriverWizard [5] code generation – it determines the default directory for saving your generated code and is used in the include paths of the generated project/make files.
+
+Note that if you install the WinDriver Windows 7 / Vista / Server 2008 / Server 2003 / XP / 2000 toolkit on the same host PC, the installation will override the value of the WD_BASEDIR variable from the Windows CE installation.
+4.2.3  Linux WinDriver Installation Instructions
+4.2.3.1  Preparing the System for Installation
+
+In Linux, kernel modules must be compiled with the same header files that the kernel itself was compiled with. Since WinDriver installs kernel modules, it must compile with the header files of the Linux kernel during the installation process.
+
+Therefore, before you install WinDriver for Linux, verify that the Linux source code and the file versions.h are installed on your machine:
+
+Install the Linux kernel source code:
+
+    If you have yet to install Linux, install it, including the kernel source code, by following the instructions for your Linux distribution.
+    If Linux is already installed on your machine, check whether the Linux source code was installed. You can do this by looking for 'linux' in the /usr/src directory. If the source code is not installed, either install it, or reinstall Linux with the source code, by following the instructions for your Linux distribution. 
+
+Install version.h:
+
+    The file version.h is created when you first compile the Linux kernel source code. Some distributions provide a compiled kernel without the file version.h. Look under /usr/src/linux/include/linux to see if you have this file. If you do not, please follow these steps:
+        Become super user:
+        $ su
+        Change directory to the Linux source directory:
+        # cd /usr/src/linux
+        Type:
+        # make xconfig
+        Save the configuration by choosing Save and Exit.
+        Type:
+        # make dep
+
+To run GUI WinDriver applications (e.g., DriverWizard [5]; Debug Monitor [7.2]) you must also have version 5.0 of the libstdc++ library – libstdc++.so.5. If you do not have this file, install it from the relevant RPM in your Linux distribution (e.g., compat-libstdc++).
+
+Before proceeding with the installation, you must also make sure that you have a linux symbolic link. If you do not, create one by typing
+/usr/src$ ln -s <target kernel>/linux
+For example, for the Linux 2.4 kernel type
+/usr/src$ ln -s linux-2.4/ linux
+4.2.3.2  Installation
+
+    Insert the WinDriver CD into your Linux machine's CD drive or copy the downloaded file to your preferred directory.
+    Change directory to your preferred installation directory, for example to your home directory:
+    $ cd ~
+
+    Extract the WinDriver distribution file – WD1021LN.tgz:
+    $ tar xvzf /<file location>/WD1021LN.tgz
+
+    For example:
+        From a CD:
+        $ tar xvzf /mnt/cdrom/LINUX/WD1021LN.tgz
+        From a downloaded file:
+        $ tar xvzf /home/username/WD1021LN.tgz
+
+    Change directory to your WinDriver redist directory (the tar automatically creates a WinDriver directory):
+    $ cd <WinDriver directory path>/redist
+    Install WinDriver:
+        <WinDriver directory>/redist$
+
+        ./configure
+        [Note]	
+        The configure script creates a makefile based on your specific running kernel. You may run the configure script based on another kernel source you have installed, by adding the flag --with-kernel-source=<path> to the configure script. The <path> is the full path to the kernel source directory, e.g., /usr/src/linux.
+        If the Linux kernel is version 2.6.26 or higher, configure generates makefiles that use kbuild to compile the kernel modules. You can force the use of kbuild on earlier versions of Linux, by passing the --enable-kbuild flag to configure.
+        <WinDriver directory>/redist$ make
+        Become super user:
+        <WinDriver directory>/redist$ su
+        Install the driver:
+        <WinDriver directory>/redist# make install
+    Create a symbolic link so that you can easily launch the DriverWizard GUI:
+    $ ln -s <path to WinDriver>/wizard/wdwizard/ usr/bin/wdwizard
+    Change the read and execute permissions on the file wdwizard so that ordinary users can access this program.
+    Change the user and group IDs and give read/write permissions to the device file /dev/windrvr6 depending on how you wish to allow users to access hardware through the device. If you are using a Linux 2.6.x kernel that has the udev file system, change the permissions by modifying your /etc/udev/permissions.d/50-udev.permissions file. For example, add the following line to provide read and write permissions:
+    windrvr6:root:root:0666 Otherwise, use the chmod command, for example:
+    chmod 666 /dev/windrvr6
+    Define a new WD_BASEDIR environment variable and set it to point to the location of your WinDriver directory, as selected during the installation. This variable is used in the make and source files of the WinDriver samples and generated DriverWizard [5] code, and is also used to determine the default directory for saving your generated DriverWizard projects. If you do not define this variable you will be instructed to do so when attempting to build the sample/generated code using the WinDriver makefiles.
+    You can now start using WinDriver to access your hardware and generate your driver code! 
+
+[Tip]	
+Use the WinDriver/util/wdreg script to load the WinDriver kernel module [10.3].
+
+The following steps are for registered users only:
+
+To register your copy of WinDriver with the license you received from Jungo, follow these steps:
+
+    Start DriverWizard:
+    $ <path to WinDriver>/wizard/wdwizard
+    Select the Register WinDriver option from the File menu, and insert the license string you received from Jungo.
+    Click the Activate License button.
+    To register source code that you developed during the evaluation period, refer to the documentation of WDU_Init() [B.4.1]. 
+
+4.2.3.3  Restricting Hardware Access on Linux
+[Caution]	
+
+Since /dev/windrvr6 gives direct hardware access to user programs, it may compromise kernel stability on multi-user Linux systems. Please restrict access to DriverWizard and the device file /dev/windrvr6 to trusted users.
+
+For security reasons the WinDriver installation script does not automatically perform the steps of changing the permissions on /dev/windrvr6 and the DriverWizard application (wdwizard). 
