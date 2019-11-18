@@ -11,6 +11,10 @@ public class controller extends biaya{
         list = new ArrayList<>();
     }
     
+    final void setHarga(){
+        harga=5000;
+    }
+    
     public void tambahParkir(int c,int waktuKeluar){
         String plat=list.get(c).getPlat();
         String tanggal=list.get(c).getTanggal();
@@ -23,13 +27,33 @@ public class controller extends biaya{
         list.add(motor);
     }
     
-    //override
-//    public int harga(String)
+        final void karcisHilang(char karcis){
+        
+        if(karcis == 't'|| karcis=='T'){
+            ongkosh=harga+((harga*25)/100);
+        }
+        else{
+            ongkosh=harga;
+        }
+        
+    }
+        
+    final void TAstnk(char stnk){
+        
+        if(stnk == 't'||stnk=='T'){
+            ongkosh=harga+100000;
+        }
+        else{
+            ongkosh=harga;
+        }
+        
+    }
     
     public void ongkos(char karcis,int c,char stnk,int waktuKeluar){
-        ongkosh=(list.get(c).getWaktuKeluar()-list.get(c).getWaktuMasuk())*5000;
-        ongkosh=ongkosh+TAstnk(stnk);
-        ongkosh=ongkosh+karcisHilang(karcis);
+        setHarga();
+        ongkosh=(list.get(c).getWaktuKeluar()-list.get(c).getWaktuMasuk())*harga;
+        TAstnk(stnk);
+        karcisHilang(karcis);
         int by=ongkosh;
          System.out.println("Bayar      = "+ongkosh+"\nHarap bayar dengan uang pas..!!!");
          String plat=list.get(c).getPlat();

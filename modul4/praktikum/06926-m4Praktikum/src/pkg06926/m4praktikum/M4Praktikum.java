@@ -1,4 +1,6 @@
 package pkg06926.m4praktikum;
+import java.time.LocalTime;
+import java.time.LocalDate;
 import java.util.Scanner;
 /**
  *
@@ -11,6 +13,8 @@ public class M4Praktikum {
      */
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
+        LocalTime time= LocalTime.now();
+        LocalDate date = LocalDate.now();
         controller control=new controller();
         String plat;
         String tanggal;
@@ -38,11 +42,12 @@ public class M4Praktikum {
                 System.out.println("Motor masuk : ");
                 System.out.print("PLAT NO           : ");
                 plat=in.next();
-                System.out.print("Tanggal           : ");
-                tanggal=in.next();
-                System.out.print("Waktu IN (24 hour): ");
-                waktuMasuk=in.nextInt();
-                waktuKeluar=0;
+                tanggal=date.toString();
+                System.out.println("Tanggal           : "+tanggal);
+                waktuMasuk= time.getHour();
+                int min = time.getMinute();
+                System.out.println("Waktu IN (24 hour): "+waktuMasuk+"."+min);
+                waktuKeluar=time.getHour();
                 by=0;
                 control.tambahParkir(plat, tanggal, waktuMasuk, waktuKeluar, by);
                 break;
@@ -58,8 +63,9 @@ public class M4Praktikum {
                 System.out.println("-------------------------------");
                 System.out.print("Motor keluar (index ke): ");
                 c=in.nextInt();
-                System.out.print("Waktu pukul (24 hour)  : ");
-                waktuKeluar=in.nextInt();
+                waktuKeluar=time.getHour();
+                min=time.getMinute();
+                System.out.println("Waktu pukul (24 hour)  : "+waktuKeluar+"."+min);
                 control.tambahParkir(c, waktuKeluar);
                 System.out.println("=================================================");
                 System.out.println("keterangan : ");
