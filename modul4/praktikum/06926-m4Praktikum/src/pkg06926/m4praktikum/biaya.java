@@ -8,10 +8,9 @@ abstract class biaya {
     int harga;
     
    
+   
     
-    
-    
-    final void karcisHilang(){};
+    abstract void karcisHilang(char karcis);
     
 //    final int karcisHilang(char karcis){
 //        if(karcis == 't'|| karcis=='T'){
@@ -27,7 +26,7 @@ abstract class biaya {
 //        return harga;
 //    }
     
-    final void TAstnk(){};
+    abstract void TAstnk(char stnk);
     
 //    final int TAstnk(char stnk){
 //        if(stnk == 't'||stnk=='T'){

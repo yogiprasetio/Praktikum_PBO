@@ -51,7 +51,8 @@ public class potongan extends gaji {
             this.tunjangan = 0;
         }
     }
-public void Gajian(int tunjangan, int pajak) {
+    @Override
+    public void Gajian(int tunjangan, int pajak) {
         int gajifx = gajian + tunjangan;
         gajifix=gajifx - pajak;
         

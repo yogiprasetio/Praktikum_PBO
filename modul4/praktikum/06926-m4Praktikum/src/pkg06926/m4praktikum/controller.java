@@ -27,27 +27,27 @@ public class controller extends biaya{
         list.add(motor);
     }
     
-        final void karcisHilang(char karcis){
+//        final void karcisHilang(char karcis){
+//        
+//        if(karcis == 't'|| karcis=='T'){
+//            ongkosh=harga+((harga*25)/100);
+//        }
+//        else{
+//            ongkosh=harga;
+//        }
+//        
+//    }
         
-        if(karcis == 't'|| karcis=='T'){
-            ongkosh=harga+((harga*25)/100);
-        }
-        else{
-            ongkosh=harga;
-        }
-        
-    }
-        
-    final void TAstnk(char stnk){
-        
-        if(stnk == 't'||stnk=='T'){
-            ongkosh=harga+100000;
-        }
-        else{
-            ongkosh=harga;
-        }
-        
-    }
+//    final void TAstnk(char stnk){
+//        
+//        if(stnk == 't'||stnk=='T'){
+//            ongkosh=harga+100000;
+//        }
+//        else{
+//            ongkosh=harga;
+//        }
+//        
+//    }
     
     public void ongkos(char karcis,int c,char stnk,int waktuKeluar){
         setHarga();
@@ -65,4 +65,26 @@ public class controller extends biaya{
     public ArrayList<kendaraan>getALL(){
         return list;
     }
+
+    @Override
+    void karcisHilang(char karcis) {
+         if(karcis == 't'|| karcis=='T'){
+            ongkosh=harga+((harga*25)/100);
+        }
+        else{
+            ongkosh=harga;
+        }
+    }
+    
+    @Override
+    void TAstnk(char stnk) {
+                if(stnk == 't'||stnk=='T'){
+            ongkosh=harga+100000;
+        }
+        else{
+            ongkosh=harga;
+        }
+    }
+
+   
 }

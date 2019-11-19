@@ -11,7 +11,7 @@ abstract class gaji {
 //    gaji(){
 //        this.gajian=4250000;
 //    }
-    public void Gajian(){};
+    abstract void Gajian(int tunjangan, int pajak);
    
 
 //    public int getGajian() {
