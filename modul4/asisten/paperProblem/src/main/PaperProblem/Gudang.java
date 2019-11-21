@@ -1,9 +1,6 @@
 package main.PaperProblem;
 
-/**
- *
- * @author yogi-06926
- */
+
 abstract class Gudang {
     String waktu;
     int debet=0;

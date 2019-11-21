@@ -1,9 +1,6 @@
 package main.PaperProblem;
 
-/**
- *
- * @author yogi-06926
- */
+
 public class Departement {
 private String namaDepartment;
 private String tujuan;

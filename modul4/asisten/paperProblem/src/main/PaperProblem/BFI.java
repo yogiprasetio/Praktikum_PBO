@@ -2,10 +2,6 @@ package main.PaperProblem;
 import java.util.Scanner;
 import java.util.Date;
 
-/**
- *
- * @author yogi-06926
- */
 public class BFI {
 
     public static void main(String[] args) {

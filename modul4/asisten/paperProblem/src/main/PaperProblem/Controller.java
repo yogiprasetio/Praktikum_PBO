@@ -1,9 +1,6 @@
 package main.PaperProblem;
 import java.util.ArrayList;
-/**
- *
- * @author yogi-06926
- */
+
 public class Controller {
     ArrayList<Departement> list;
     ArrayList<kertas> listkertas=new ArrayList<>();
