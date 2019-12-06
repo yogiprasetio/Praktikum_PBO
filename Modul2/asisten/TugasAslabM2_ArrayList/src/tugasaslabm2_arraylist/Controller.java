@@ -18,6 +18,7 @@ public class Controller {
     }
     
     void update(int c,String name,int a,int b){
+        
         arraylistdata.set(c,new Data(name,a,b));
     }
     
