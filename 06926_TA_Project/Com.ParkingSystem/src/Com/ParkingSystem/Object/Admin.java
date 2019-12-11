@@ -9,7 +9,10 @@ package Com.ParkingSystem.Object;
  *
  * @author yogi-06926
  */
-abstract class Kendaraan {
+public class Admin extends User {
     
-    abstract void Type(String typee);
+    public Admin(String nama, String password, String id) {
+        super(nama, password, id);
+    }
+    
 }

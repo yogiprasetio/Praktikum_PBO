@@ -120,7 +120,11 @@ public class MainView extends Componnent{
         admin.setBounds(280, 500, 200, 35);
         admin.setForeground(Color.BLUE);
         add(admin);
-        admin.setVisible(true);
+        admin.setVisible(false);
+        
+        logOut.setBounds(150, 550, 200, 35);
+        logOut.setForeground(Color.RED);
+        add(logOut);
         
         bayar.setBounds(70 , 500, 200, 35);
         bayar.setForeground(Color.RED);
@@ -132,13 +136,23 @@ public class MainView extends Componnent{
 //        add(lblDenda11);
 //        
 jcMobil.addActionListener(action);
-               System.out.println("Harga + mobil = "+harga1);
+//               System.out.println("Harga + mobil = "+harga1);
                jcMotor.addActionListener(action);
-               System.out.println("Harga + motor = "+harga1);
+//               System.out.println("Harga + motor = "+harga1);
 jcKarcis.addActionListener(action);
-               System.out.println("Harga + karcis = "+harga2);
+//               System.out.println("Harga + karcis = "+harga2);
                jcStnk.addActionListener(action);
-               System.out.println("Harga + stnk = "+harga2);
+//               System.out.println("Harga + stnk = "+harga2);
+
+            logOut.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                ControllerVIew cont = new ControllerVIew();
+                cont.goToLoginVIew();
+                setVisible(false);
+            }
+        });
+            
         Submit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -181,16 +195,16 @@ jcKarcis.addActionListener(action);
             }
         });
         
-        admin.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent ae) {
-                ControllerVIew view = new ControllerVIew();
-                setVisible(false);
-                view.goToViewData();
-                
-//                main_view goMain = new main_view();
-            }
-        });
+//        admin.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent ae) {
+//                ControllerVIew view = new ControllerVIew();
+//                setVisible(false);
+//                view.goToViewData();
+//                
+////                main_view goMain = new main_view();
+//            }
+//        });
         
         setTitle("Parking System");
         setForeground(Color.blue);

@@ -11,7 +11,7 @@ import Com.ParkingSystem.ViewController.ControllerVIew;
 /**
  *
  * @author yogi-06926
- */
+ */ 
 public class ComParkingSystem {
 
     /**
@@ -19,9 +19,13 @@ public class ComParkingSystem {
      */
     public static void main(String[] args) {
 //        MainView main = new MainView();
-//        login log = new login();
-            ControllerVIew viww = new ControllerVIew();
-            viww.goToLoginVIew();
+        login log = new login();
+        //addUsr add = new addUsr();
+//            ControllerVIew viww = new ControllerVIew();
+//            viww.goToLoginVIew();
+//            WRONG wr = new WRONG();
+//            AdminView admin= new AdminView();
+        
     }
     
 }

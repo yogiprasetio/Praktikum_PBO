@@ -5,7 +5,8 @@
  */
 package Com.ParkingSystem.ControllerObject;
 
-import Com.ParkingSystem.Object.Mobil;
+import Com.ParkingSystem.Object.Admin;
+
 import Com.ParkingSystem.Object.Motor;
 import Com.ParkingSystem.Object.User;
 import java.util.ArrayList;
@@ -16,7 +17,7 @@ import java.util.ArrayList;
  */
 public class Controller {
     public static ArrayList<Motor> lis = new ArrayList<Motor>();
-    public static ArrayList<Mobil> lis2 = new ArrayList<Mobil>();
+    public static ArrayList<Admin> admin = new ArrayList<Admin>();
     public static ArrayList<User> userR = new ArrayList<User>();
     
     public void TambahUser(String nama,String password,String id){
@@ -24,19 +25,20 @@ public class Controller {
         userR.add(user);
     }
     
-    public void TambahController(String plat,String typee,String tanggal,int biaya,int waktuMasuk,int waktuKeluar){
-        if(typee.equals("Motor")){
-            Motor motor = new Motor(plat,typee,tanggal,biaya,waktuMasuk,waktuKeluar);
-            lis.add(motor);
-        }
-        else{
-            Mobil mobil = new Mobil(plat,typee,tanggal,biaya,waktuMasuk,waktuKeluar);
-            lis2.add(mobil);
-        }
+    public void TambahAdmin(String nama,String password,String id){
+        Admin ad= new Admin(nama, password, id);
+        admin.add(ad);
     }
     
-    public ArrayList<Mobil>getALL(){
-        return lis2;
+    public void TambahController(String plat,String typee,String tanggal,int biaya,int waktuMasuk,int waktuKeluar){
+        
+            Motor motor = new Motor(plat,typee,tanggal,biaya,waktuMasuk,waktuKeluar);
+            lis.add(motor);
+        
+        
+    }
+    public void DeleteData(int del){
+        
     }
     
     public ArrayList<Motor>getALLL(){

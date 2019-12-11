@@ -1,7 +1,9 @@
 package Com.ParkingSystem.ViewController;
 
+import Com.ParkingSystem.View.AdminView;
 import Com.ParkingSystem.View.MainView;
 import Com.ParkingSystem.View.ViewData;
+import Com.ParkingSystem.View.WRONG;
 import Com.ParkingSystem.View.addUsr;
 import Com.ParkingSystem.View.login;
 
@@ -10,7 +12,16 @@ import Com.ParkingSystem.View.login;
  * @author yogi-06926
  */
 public class ControllerVIew implements View {
-
+    
+    public void Wrong(){
+        WRONG salah = new WRONG();
+        
+    }
+    
+    public void admin(){
+        AdminView admine = new AdminView();
+    }
+    
     @Override
     public void goToLoginVIew() {
         login log = new login();

@@ -11,6 +11,8 @@ import javax.imageio.ImageIO;
  * @author yogi-06926
  */
 public class Componnent extends JFrame {
+    JButton anyar = new JButton();
+    JButton logOut = new JButton("Log Out");
     JCheckBox jcMotor = new JCheckBox();
     JCheckBox jcMobil = new JCheckBox();
     JCheckBox jcKarcis = new JCheckBox();
@@ -20,7 +22,9 @@ public class Componnent extends JFrame {
     JLabel judulHasilJamIn = new JLabel("Jam Masuk");
     JLabel judulHasilJamOut = new JLabel("Jam Keluar");
     JLabel judulHasilBayar = new JLabel("Bayar");
-    
+    JPanel myPane = new JPanel();
+    JPanel myPane2 = new JPanel();     
+
     JLabel judulHasilPlat = new JLabel("Plat");
     JLabel lblPlat = new JLabel("Nomor Plat    :");
     JLabel judul1 = new JLabel("PT. Go Clean Indonesia");
@@ -32,6 +36,7 @@ public class Componnent extends JFrame {
     JLabel lblHarga = new JLabel("Tarif              : ");
     JLabel lblDenda = new JLabel("Tidak Ada Stnk: ");
     JLabel lblDenda1 = new JLabel("Karcis Hilang   : ");
+    JPasswordField password = new JPasswordField();
     JTextField jtPlat = new JTextField();
     JTextField jtHarga = new JTextField();
     JTextField jtIn = new JTextField();

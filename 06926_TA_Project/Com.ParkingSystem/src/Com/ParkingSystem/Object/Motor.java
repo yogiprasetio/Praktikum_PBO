@@ -17,15 +17,11 @@ public class Motor extends Kendaraan{
     public Motor(String plat, String typee,String tanggal,int biaya,int waktuMasuk,int waktuKeluar) {
         waktu = new Waktu(tanggal,waktuMasuk,waktuKeluar);
         SetPlat(plat);
-        Type();
+        Type(typee);
         by=new Biaya(biaya);
        
     }
     
-    @Override
-    void Type() {
-        this.type="Motor";
-    }
     
     private void SetMerk(String merk){
         this.merk=merk;
@@ -45,6 +41,11 @@ public class Motor extends Kendaraan{
     
     public String getType(){
         return type;
+    }
+
+    @Override
+    void Type(String typee) {
+        this.type=typee;
     }
     
 }
