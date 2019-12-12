@@ -11,7 +11,12 @@ import javax.imageio.ImageIO;
  * @author yogi-06926
  */
 public class Componnent extends JFrame {
+    
     JButton anyar = new JButton();
+    JTable list;
+    JScrollPane scroll = new JScrollPane(); 
+    JButton masuk = new JButton("Hapus");
+    JButton keluar = new JButton("<- Back");
     JButton logOut = new JButton("Log Out");
     JCheckBox jcMotor = new JCheckBox();
     JCheckBox jcMobil = new JCheckBox();

@@ -20,6 +20,14 @@ public class Controller {
     public static ArrayList<Admin> admin = new ArrayList<Admin>();
     public static ArrayList<User> userR = new ArrayList<User>();
     
+    public void deleteLis(int d){
+        lis.remove(d);
+    }
+    
+    public void deleteUser(int d){
+        userR.remove(d);
+    }
+    
     public void TambahUser(String nama,String password,String id){
         User user = new User(nama, password, id);
         userR.add(user);
@@ -37,8 +45,8 @@ public class Controller {
         
         
     }
-    public void DeleteData(int del){
-        
+    public void DeleteData(){
+        lis.clear();
     }
     
     public ArrayList<Motor>getALLL(){

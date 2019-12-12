@@ -5,12 +5,14 @@
  */
 package Com.ParkingSystem.View;
 
+import Com.ParkingSystem.ControllerObject.Controller;
 import Com.ParkingSystem.ViewController.ControllerVIew;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -39,13 +41,13 @@ public class addUsr extends Componnent{
         lblOut.setFont(new Font("Arial",1,14));
         add(lblOut);
         
-        jtPlat.setBounds(90, 128, 400, 20);
+        jtPlat.setBounds(90, 128, 400, 20); //isi Password
         add(jtPlat);
         
-        jtIn.setBounds(90,85,400,20);
+        jtIn.setBounds(90,85,400,20); //isi nama
         add(jtIn);
         
-        jtOut.setBounds(90,107,400,20);
+        jtOut.setBounds(90,107,400,20); //isi username
         add(jtOut);
         
         lblPlat.setText("Password   :");
@@ -56,21 +58,56 @@ public class addUsr extends Componnent{
         Submit.setBounds(200, 159, 89, 35);
         add(Submit);
         
-        
-        
-        bayar.setText("Log Out");
-        bayar.setFont(new Font("Arial",1,14));
-        bayar.setBounds(90,159,89,35);
-        add(bayar);
-        
-        bayar.addActionListener(new ActionListener() {
+        Submit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent ae) {
-                ControllerVIew conts = new ControllerVIew();
-                conts.goToLoginVIew();
+                if(jtIn.equals(null)){
+                    JOptionPane.showConfirmDialog(null, "Harap isikan nama", "WARNING !!!", JOptionPane.ERROR_MESSAGE);
+                }
+                else if(jtPlat.equals(null)){
+                    JOptionPane.showConfirmDialog(null, "Password harus diisi..", "WARNING...!!!", JOptionPane.WARNING_MESSAGE);
+                }
+                else if(jtOut.equals(null)){
+                    JOptionPane.showConfirmDialog(null, "Harap inputkan username", "WARNING!!!", JOptionPane.WARNING_MESSAGE);
+                }
+                else{
+                String nama = jtIn.getText().trim();
+                String password = jtPlat.getText().trim();
+                String id = jtOut.getText().trim();
+                
+                Controller cc = new Controller();
+                cc.TambahUser(nama, password, id);
+                
+                JOptionPane.showMessageDialog(null, "User "+ nama +" Berhasil di daftarkan", "Success", JOptionPane.INFORMATION_MESSAGE);
+                }
+            }
+        });
+        
+        keluar.setBounds(90,159,89,35);
+        add(keluar);
+        
+        keluar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                ControllerVIew cvn = new ControllerVIew();
+                cvn.admin();
                 setVisible(false);
             }
         });
+        
+//        bayar.setText("Log Out");
+//        bayar.setFont(new Font("Arial",1,14));
+//        bayar.setBounds(90,159,89,35);
+//        add(bayar);
+//        
+//        bayar.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent ae) {
+//                ControllerVIew conts = new ControllerVIew();
+//                conts.goToLoginVIew();
+//                setVisible(false);
+//            }
+//        });
         
         setTitle("Add User");
         myPane.setBackground(new Color(0,191,255));

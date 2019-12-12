@@ -223,38 +223,38 @@ jcKarcis.addActionListener(action);
                 if(checkBox == jcMobil){
                     harga1 = 5000;
                     typee = "Mobil";
-                    System.out.println("jcMobil");
+//                    System.out.println("jcMobil");
                 }
                 else if(checkBox == jcMotor){
                     harga1 = 3000;
                     typee = "Motor";
-                    System.out.println("jcMotor");
+                    //System.out.println("jcMotor");
                 }
                 else if(checkBox == jcKarcis){
                     harga2 = harga2;
-                    System.out.println("jc3");
+                    //System.out.println("jc3");
                 }
                 else if (checkBox == jcStnk){
                     harga2 = harga2;
-                    System.out.println("jc4");
+                    //System.out.println("jc4");
                 }
             }
             else{
                 if(checkBox == jcMobil){
                     harga1 = harga1;
-                    System.out.println("jc5");
+                    //System.out.println("jc5");
                 }
                 else if(checkBox == jcMotor){
                     harga1 = harga1;
-                    System.out.println("jc6");
+                    //System.out.println("jc6");
                 }
                 else if(checkBox == jcStnk){
                     harga2= harga2 + 100000;
-                    System.out.println("jcStnk");
+                    //System.out.println("jcStnk");
                 }
                 else if(checkBox == jcKarcis){
                     harga2 = harga2 + 20000;
-                    System.out.println("jcKarcis");
+                    //System.out.println("jcKarcis");
                 }
             }
         }

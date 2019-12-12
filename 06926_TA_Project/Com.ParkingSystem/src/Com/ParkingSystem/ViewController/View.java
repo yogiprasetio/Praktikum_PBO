@@ -11,5 +11,5 @@ public interface View {
    
    public void goToMainView();
    
-   public void goToViewData();
+   public void ViewData();
 }

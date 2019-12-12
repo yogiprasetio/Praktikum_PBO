@@ -60,17 +60,12 @@ public class login extends Componnent {
             public void actionPerformed(ActionEvent ae) {
                 String user = jtPlat.getText().trim();
                 String pass = password.getText().trim();
-                if(Controller.userR.isEmpty()==true){
-                    if("root".equals(user)&&"toor".equals(pass)){
+                
+                if("root".equals(user)&&"toor".equals(pass)){
                         cv.admin();
                         setVisible(false);
                     }
-                    else{
-                        ControllerVIew p = new ControllerVIew();
-                        p.Wrong();
-                        setVisible(false);
-                    }
-                }
+                    
                 else if(Controller.userR.isEmpty() != true){
                     user = jtPlat.getText().trim();
                     pass = password.getText().trim();

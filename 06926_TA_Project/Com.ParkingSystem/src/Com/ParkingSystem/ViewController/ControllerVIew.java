@@ -5,6 +5,7 @@ import Com.ParkingSystem.View.MainView;
 import Com.ParkingSystem.View.ViewData;
 import Com.ParkingSystem.View.WRONG;
 import Com.ParkingSystem.View.addUsr;
+import Com.ParkingSystem.View.listUser;
 import Com.ParkingSystem.View.login;
 
 /**
@@ -16,6 +17,10 @@ public class ControllerVIew implements View {
     public void Wrong(){
         WRONG salah = new WRONG();
         
+    }
+   
+    public void listUser(){
+        listUser list = new listUser();
     }
     
     public void admin(){
@@ -38,8 +43,9 @@ public class ControllerVIew implements View {
     }
 
     @Override
-    public void goToViewData() {
+    public void ViewData() {
         ViewData data = new ViewData();
+        
     }
     
 }
