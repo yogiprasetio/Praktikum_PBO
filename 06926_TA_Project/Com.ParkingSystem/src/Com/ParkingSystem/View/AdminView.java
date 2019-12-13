@@ -89,7 +89,7 @@ public class AdminView extends Componnent{
         lblDenda.setFont(new Font("Arial",Font.BOLD,14));
         add(lblDenda);
         
-        judulHasilBayar.setText("Rp "+tIncome);
+        judulHasilBayar.setText("Rp "+tIncome+",00");
         judulHasilBayar.setBounds(90,133,90,30);
         judulHasilBayar.setFont(new Font("Arial",Font.BOLD,14));
         judulHasilBayar.setForeground(Color.red);

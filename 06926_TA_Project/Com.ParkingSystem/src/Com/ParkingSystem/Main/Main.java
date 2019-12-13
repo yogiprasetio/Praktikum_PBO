@@ -12,7 +12,7 @@ import Com.ParkingSystem.ViewController.ControllerVIew;
  *
  * @author yogi-06926
  */ 
-public class ComParkingSystem {
+public class Main {
 
     /**
      * @param args the command line arguments

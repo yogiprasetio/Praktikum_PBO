@@ -159,13 +159,13 @@ jcKarcis.addActionListener(action);
                plat = jtPlat.getText().toString().trim();
                waktuMasuk = Integer.valueOf(jtIn.getText());
                waktuKeluar = Integer.valueOf(jtOut.getText());
-                System.out.println("Harga awal = "+harga);
-              System.out.println("Harga awal 2 = "+harga2);
-               
+//                System.out.println("Harga awal = "+harga);
+//              System.out.println("Harga awal 2 = "+harga2);
+//               
                harga = ((waktuKeluar-waktuMasuk)*harga1)+harga2;
 //               harga = harga+harga2;
-               System.out.println("Harga + jumlah = "+harga);
-               
+//               System.out.println("Harga + jumlah = "+harga);
+//               
                lblDendaa.setText(String.valueOf("Rp. "+harga));
                nomer = nomer++;
                bayar.setVisible(true);
