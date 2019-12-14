@@ -17,6 +17,7 @@ public class ControllerVIew implements View {
     public void Wrong(){
         WRONG salah = new WRONG();
         
+        
     }
    
     public void listUser(){

@@ -8,6 +8,7 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -80,11 +81,12 @@ public class login extends Componnent {
                         cot.goToAddUser();
                     }
                     else{
-                        ControllerVIew p = new ControllerVIew();
-                        p.Wrong();
-                        setVisible(false);
+                        JOptionPane.showConfirmDialog(null, "WRONG PASSWORD !!!");
                     }
                    }
+                }
+                else{
+                    JOptionPane.showMessageDialog(null, "WRONG PASSWORD !!!");
                 }
             }
         });

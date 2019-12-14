@@ -49,7 +49,7 @@ public class listUser extends ComponnentList {
                 int j = Integer.valueOf(isiHpusUser.getText());
                 k.deleteUser(j);
                 JOptionPane.showMessageDialog(null, "User berhasil dihapus", "Success", JOptionPane.INFORMATION_MESSAGE);
-                setVisible(false);
+//                setVisible(false);
             }
         });
         keluar.setBounds(340, 300, 100, 30);

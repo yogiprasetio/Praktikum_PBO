@@ -17,7 +17,7 @@ import javax.swing.JFrame;
  */
 public class WRONG extends Componnent {
 
-    public WRONG() {
+    public WRONG(){
     
         judul1.setText("Username or Password is WRONG!!");
         judul1.setForeground(Color.RED);
