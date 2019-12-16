@@ -81,7 +81,7 @@ public class login extends Componnent {
                         cot.goToAddUser();
                     }
                     else{
-                        JOptionPane.showConfirmDialog(null, "WRONG PASSWORD !!!");
+                        JOptionPane.showMessageDialog(null, "WRONG PASSWORD !!!");
                     }
                    }
                 }
